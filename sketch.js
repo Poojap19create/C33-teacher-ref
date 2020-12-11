@@ -106,7 +106,7 @@ async function getTime(){
     var responseJSON = await response.json();
 console.log(responseJSON)
     var datetime = responseJSON.datetime;
-    var hour = datetime.slice(10,13);
+    var hour = datetime.slice(8,10);
     console.log(datetime);
     console.log(hour);
     if(hour>=06 && hour<=19){
