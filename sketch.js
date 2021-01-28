@@ -118,3 +118,4 @@ console.log(responseJSON)
 
     backgroundImg = loadImage(bg);
 }
+}
